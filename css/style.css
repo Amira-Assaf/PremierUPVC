@@ -693,13 +693,15 @@ pre {
   margin-left: 91.66667%; }
 
 
- @media only screen and (min-width: 400px) and (max-width: 600px) {
+ @media only screen and (min-width: 100px) and (max-width: 600px) {
 	.overlay1 {
-		height: 1200px !important;
-        background: rgba(0,0,0,1) !important;
+		height: 1350px !important;
 	}   
 	.bg-wrap .align-items-center p a{
 		display:none;
+	}
+	.footer .py-md-5{
+		padding-bottom:0px !important
 	}
 }
 
