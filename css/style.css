@@ -8827,10 +8827,21 @@ margin-right:auto;
     width: calc(100% - 80px); }
     .services-2 .text h3 {
       font-size: 20px;
-      font-weight: 500; }
-
+      font-weight: 500;
+    }
+	.course .text{
+	background:rgba(89,155,71,.7);
+margin-top:-75px;
+height:75px;
+	}
+.course .text p {
+    padding-left:5px;
+	  color:#fff;
+	  font-size:15px;
+}
 .course {
   margin-bottom: 30px; }
+
   @media (max-width: 991.98px) {
     .course .text {
       width: 100%; } }
@@ -8844,17 +8855,26 @@ margin-right:auto;
     .course .text p.meta i {
       color: #fd5f00; }
   .course .text h3 {
+	  padding-left:5px;
+	  color:#fff;
     font-weight: 500;
-    font-size: 24px; }
+    font-size: 22px;
+	  line-height:.9 !important;
+	  margin-bottom: 0 !important;
+
+  }
+  .course .text p {
+    padding-top:7px; }
     .course .text h3 a {
       color: #000000; }
   .course .img {
     width: 100%;
-    height: 300px; }
+    height: 500px;
+  }
     @media (max-width: 991.98px) {
       .course .img {
         width: 100%;
-        height: 300px; } }
+        height: 400px; } }
 
 .staff {
   overflow: hidden;
@@ -8904,8 +8924,10 @@ margin-right:auto;
       font-size: 12px;
       font-weight: 500; }
     .staff .text .faded {
-      opacity: 1; }
+      opacity: 1;
+    }
   .staff .ftco-social {
+	  /*background:black;*/
     position: absolute;
     top: -30px;
     left: 0;
@@ -8917,7 +8939,13 @@ margin-right:auto;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease;
+
+  }
+
+
+
+
     .staff .ftco-social li a {
       color: #fd5f00; }
   .staff:hover .ftco-social, .staff:focus .ftco-social {
@@ -9080,7 +9108,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 2em 0;
   position: relative; }
 
 .ftco-no-pt {
@@ -9484,7 +9512,7 @@ textarea.form-control {
 #section-counter {
   position: relative;
   z-index: 0; }
-  #section-counter:after {
+  /*#section-counter:after {
     position: absolute;
     top: 0;
     left: 0;
@@ -9501,7 +9529,7 @@ textarea.form-control {
     background: -o-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
     background: -ms-linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
     background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1128', endColorstr='#fd6100', GradientType=1 ); }
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1128', endColorstr='#fd6100', GradientType=1 ); }*/
 
 .ftco-counter {
   overflow-x: hidden;
