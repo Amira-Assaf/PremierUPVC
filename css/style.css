@@ -2058,7 +2058,10 @@ textarea.form-control {
 .btn2:hover {
   color: #fff !important;
 }
-  
+
+.ftco-footer-widget .btn2:hover {
+  color: #599B47 !important;
+}
 @media (prefers-reduced-motion: reduce) {
     .btn {
       -webkit-transition: none;
@@ -10235,7 +10238,9 @@ color:#fff;
 	  }
 
 /*Materials Style*/
-
+.container {
+	overflow: hidden;
+}
 	  	.slider {
 	  		animation: slidein 30s linear infinite;
 	  		white-space: nowrap;
