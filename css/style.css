@@ -9123,7 +9123,11 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #232323;
-  padding: 6em 0; }
+  /*padding: 6em 0;*/
+  padding: 20px 0px 0px 0px!important;
+  margin: 0px !important;
+
+}
   .ftco-footer .ftco-footer-widget {
     width: 100%;
     display: block; }
@@ -10225,3 +10229,46 @@ color:#fff;
 	  .product:hover .text {
   	display:none;
   	}
+
+	  .border-white{
+		  border:solid 1px white;
+	  }
+
+/*Materials Style*/
+
+	  	.slider {
+	  		animation: slidein 30s linear infinite;
+	  		white-space: nowrap;
+	  	}
+	  	.logos {
+	  		width: 100%;
+	  		display: inline-block;
+	  		margin: 0px 0;
+	  	}
+	  	.logos img {
+			  padding:45px;
+	  	}
+      .fab {
+        width: calc(100% / 5);
+        animation: fade-in 0.5s 
+          cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
