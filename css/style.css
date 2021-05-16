@@ -5419,7 +5419,6 @@ button.bg-light:focus {
 
 .bg-dark {
   background-color: #343a40 !important;
-
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -8192,17 +8191,21 @@ h1, h2, h3, h4, h5,
     -ms-border-radius: 50%;
     border-radius: 50%; }
     .topper .icon span {
-      color: #51be78;
+      color: #599B47;
       font-size: 30px; }
   .topper .text {
     color: rgba(0, 0, 0, 0.7);
     padding-left: 15px; }
     .topper .text span {
       width: 100%;
-      display: block; }
+      display: block;
+	  color:#599B47;
+    }
       .topper .text span:first-child {
-        font-weight: 700;
-        color: #000000; }
+        /*font-weight: 700;*/
+        color: #8FCDA0;
+
+      }
   .topper .d-block {
     width: 100%; }
   .topper .btn {
@@ -8248,7 +8251,7 @@ h1, h2, h3, h4, h5,
   z-index: 3;
   padding: 0; }
   .ftco-navbar-light .container {
-    background: #000;
+    background: #4DA867;
     width: 1110px;
   }
   @media (max-width: 991.98px) {
@@ -8330,7 +8333,7 @@ h1, h2, h3, h4, h5,
         color: #fff;
         background: #fd5f00; } }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #8FCDA0;
+    color: #000;
 	position:relative;
 	/*color:black;*/
   }
@@ -8340,7 +8343,7 @@ h1, h2, h3, h4, h5,
   	position: absolute;
   	width: 25px;
   	height: 2.1px;
-  	background: #8FCDA0;
+  	background: #000;
   	top: 74%;
   	left:0;
 right:0;
@@ -8572,7 +8575,7 @@ margin-right:auto;
 		     .owl-carousel.home-slider .slider-item .slider-text .bg-text {
           /*amira*/
   	position: absolute;
-  	width: 100px;
+  	width: 60px;
   	height: 40px;
   	background: #8FCDA0;
   	top: 0%;
@@ -9234,7 +9237,10 @@ textarea.form-control {
     .ftco-footer .block-21 .text .meta > div a {
       color: gray; }
 
-
+.block-21 .text .heading a:hover{
+	color:#000 !important;
+	text-decoration:underline;
+}
 
 .ftco-footer-social li {
   list-style: none;
@@ -10204,7 +10210,7 @@ textarea.form-control {
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
-  	background:rgba(89,155,71,.7);
+  	/*background:rgba(89,155,71,.7);*/
   	}
 
   	.product:hover .product-overlay {
@@ -10218,6 +10224,8 @@ textarea.form-control {
   	top: 0;
   	right: 0%;
   	text-align: left;
+	  text-align:center;
+	  padding:40px;
   	}
 	   .product-overlay-text h3{
 padding:20px 10px;
