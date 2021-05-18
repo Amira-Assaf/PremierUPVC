@@ -8263,7 +8263,7 @@ h1, h2, h3, h4, h5,
   }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000 !important;
+      background: #4DA867 !important;
       position: relative;
       top: 0;
       padding: 10px 15px; }
@@ -8598,6 +8598,7 @@ margin-right:auto;
   	left:0;
 	  z-index:0;
 		     }
+
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             display: block; }
           @media (max-width: 991.98px) {
@@ -10126,7 +10127,14 @@ textarea.form-control {
 @media (min-width: 320px) and (max-width: 480px) {
   
   /* CSS */
+  .bg-text{display:none}
+  
+}
 
+@media (min-width: 150px) and (max-width: 320px) {
+  
+  /* CSS */
+  .bg-text{display:none}
   
 }
 
