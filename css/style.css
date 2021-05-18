@@ -10132,8 +10132,8 @@ textarea.form-control {
   /* CSS */
   .bg-text{display:none}
   .img-article{
-	  max-height:60px;
-	max-width:60px;
+	  max-height:100px;
+	max-width:100px;
   }
 }
 
@@ -10142,8 +10142,8 @@ textarea.form-control {
   /* CSS */
   .bg-text{display:none}
    .img-article{
-	  max-height:60px;
-	max-width:60px;
+	  max-height:100px;
+	max-width:100px;
   }
 }
 
