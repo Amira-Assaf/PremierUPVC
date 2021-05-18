@@ -10063,7 +10063,10 @@ textarea.form-control {
 
 /*.bg-text{display:none}*/
 /*.ftco-navbar-light .navbar-nav > .nav-item.active > a:after {background-color:transparent;}*/
-
+.img-article{
+	max-height:171px;
+	max-width:265px;
+}
 
 @media (min-width: 1281px) {
   
@@ -10128,14 +10131,20 @@ textarea.form-control {
   
   /* CSS */
   .bg-text{display:none}
-  
+  .img-article{
+	  max-height:60px;
+	max-width:60px;
+  }
 }
 
 @media (min-width: 150px) and (max-width: 320px) {
   
   /* CSS */
   .bg-text{display:none}
-  
+   .img-article{
+	  max-height:60px;
+	max-width:60px;
+  }
 }
 
 /*feedback slider*/
