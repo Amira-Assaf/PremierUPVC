@@ -8466,15 +8466,17 @@ margin-right:auto;
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .3;
-    background: #f1453d; }
+    opacity: .5;
+    background: #000; }
   .hero-wrap.hero-wrap-2 {
     height: 300px; }
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 300px; }
       .hero-wrap.hero-wrap-2 .slider-text .bread {
-        font-weight: 900;
-        color: #fff; }
+        font-weight: 500;
+        color: #fff;
+		position:relative;
+      }
       .hero-wrap.hero-wrap-2 .slider-text .breadcrumbs {
         text-transform: uppercase;
         font-size: 13px;
@@ -8596,6 +8598,16 @@ margin-right:auto;
   	background: #8FCDA0;
   	top: 0%;
   	left:0;
+	  z-index:0;
+		     }
+	.hero-wrap.hero-wrap-2 .container .slider-text .bg-text {
+          /*amira*/
+  	position: absolute;
+  	width: 100px;
+  	height: 50px;
+  	background: #8FCDA0;
+  	top: 10%;
+  	left:39%;
 	  z-index:0;
 		     }
 
@@ -9293,6 +9305,33 @@ textarea.form-control {
       transform: translate(-50%, -50%); }
     .ftco-footer-social li a:hover {
       color: #fff; }
+
+
+.ftco-blog-social li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block; }
+  .ftco-blog-social li a {
+    height: 25px;
+    width: 25px;
+    display: block;
+    float: left;
+    /*background: rgba(255, 255, 255, 0.05);*/
+    border-radius: 50%;
+    position: relative;
+	color:#fff;
+	background-color:#6ABC81;
+  }
+    .ftco-blog-social li a span {
+      position: absolute;
+      font-size: 12px;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .ftco-blog-social li a:hover {
+      color: #000; }
 /*/////////////////////////////*/
 	.ftco-footer-social2 li {
   list-style: none;
@@ -9756,15 +9795,18 @@ textarea.form-control {
       opacity: .5; }
 
 .tagcloud a {
-  text-transform: uppercase;
+	/*font-family:Poppins-Medium;*/
+  /*text-transform: uppercase;*/
   display: inline-block;
-  padding: 4px 10px;
+  padding: 10px 10px;
   margin-bottom: 7px;
-  margin-right: 4px;
+  margin-right: 15px;
   border-radius: 4px;
-  color: #000000;
+  color: #fff;
   border: 1px solid #ccc;
-  font-size: 11px; }
+  font-size: 15px;
+  background-color:#8FCDA0;
+}
   .tagcloud a:hover {
     border: 1px solid #000; }
 
@@ -10329,4 +10371,7 @@ color:#fff;
   100% {
     opacity: 1;
   }
+}
+.clr-green{
+	color:#599B47;
 }
