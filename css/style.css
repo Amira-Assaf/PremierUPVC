@@ -10548,15 +10548,15 @@ width:390px;
 }
 @media (max-width: 400px) {
 	.gallery-top {
-		width: 290px !important;
+		width: 300px !important;
 	}
 
 	.swiper-slide-active {
-		width: 290px;
+		width: 300px;
 	}
 
 	.product__carousel .gallery-top .swiper-slide a img {
-		width: 290px;
+		width: 300px;
 	}
 }
 .table-light, .table-light > th, .table-light > td{
