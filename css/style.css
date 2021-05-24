@@ -10544,6 +10544,18 @@ width:390px;
 	.related-img {
 		height:160px;
 	width:auto;
-	max-width:250px;
+	}
+}
+@media (max-width: 400px) {
+	.gallery-top {
+		width: 300px !important;
+	}
+
+	.swiper-slide-active {
+		width: 300px;
+	}
+
+	.product__carousel .gallery-top .swiper-slide a img {
+		width: 300px;
 	}
 }
