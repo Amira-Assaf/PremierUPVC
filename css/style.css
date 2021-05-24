@@ -10544,5 +10544,6 @@ width:390px;
 	.related-img {
 		height:160px;
 	width:auto;
+	max-width:300px;
 	}
 }
