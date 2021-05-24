@@ -10546,6 +10546,7 @@ width:390px;
 	width:auto;
 	}
 }
+/*Mobile Responsive*/
 @media (max-width: 400px) {
 	.gallery-top {
 		width: 300px !important;
@@ -10558,7 +10559,11 @@ width:390px;
 	.product__carousel .gallery-top .swiper-slide a img {
 		width: 300px;
 	}
+	.pdf a span{
+    right: 0%;
+	}
 }
+
 .table-light, .table-light > th, .table-light > td{
 	background-color:transparent !important;
 	border:none !important;
