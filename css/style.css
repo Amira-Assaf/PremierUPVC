@@ -10546,16 +10546,20 @@ width:390px;
 	width:auto;
 	}
 }
-@media (max-width: 400px) {
+@media (max-width: 300px) {
 	.gallery-top {
-		width: 300px !important;
+		width: 280px !important;
 	}
 
 	.swiper-slide-active {
-		width: 300px;
+		width: 280px;
 	}
 
 	.product__carousel .gallery-top .swiper-slide a img {
-		width: 300px;
+		width: 280px;
 	}
+}
+.table-light, .table-light > th, .table-light > td{
+	background-color:transparent !important;
+	border:none !important;
 }
