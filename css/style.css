@@ -4,6 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9055,7 +9056,7 @@ height:75px;
     z-index: 0;
     opacity: 0;
     position: relative;
-    background: #fd5f00;
+    background: #28a745;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -9195,6 +9196,9 @@ textarea.form-control {
 .ftco-no-pb {
   padding-bottom: 0; }
 
+.no-pl {
+  padding-left: 0px !important; }
+
 .ftco-bg-dark {
   background: #3c312e; }
 
@@ -9283,7 +9287,8 @@ textarea.form-control {
       -o-transition: all 0.3s ease;
       -webkit-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
-      transition: all 0.3s ease; }
+      transition: all 0.3s ease;
+    }
       .ftco-footer .subscribe-form .form-group .submit:hover {
         cursor: pointer;
         background: #fd5f00 !important; }
@@ -9384,6 +9389,10 @@ textarea.form-control {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
+	  .ftco-footer-social3 li a {
+    float: none !important; 
+
+	  }
 	.br-2{
 		padding-right:15px;border-right:1px solid #51be78;
 	}
@@ -10126,6 +10135,7 @@ font-weight:400;
 							}
 							.img-layer{
 								width:250px;
+								height:350px;
 								position:absolute;
 								top:0;
 								bottom:0;
@@ -10138,6 +10148,45 @@ font-weight:400;
 								-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.55);
 							}
 
+							.layer-3{
+								height:190px;
+								width:290px;
+								background: #8FCDA0;
+								position:relative;
+								clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+								z-index:0;
+							}
+							.layer-4{
+								height:97%;
+								width:97%;
+								background: #fff;
+								position:absolute;
+								top:0;
+								bottom:0;
+								left:0;
+								right:0;
+								margin-top:auto;
+								margin-bottom:auto;
+								margin-left:auto;
+								margin-right:auto;
+								clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+								z-index:0;
+							}
+							.img-layer2{
+								width:250px;
+								height:165px;
+								position:absolute;
+								top:0;
+								bottom:0;
+								left:9%;
+								right:0;
+								margin-top:auto;
+								margin-bottom:auto;
+								box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.55);
+								-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.55);
+								-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.55);
+								margin-top:10px;
+							}
 
 /*.bg-text{display:none}*/
 /*.ftco-navbar-light .navbar-nav > .nav-item.active > a:after {background-color:transparent;}*/
@@ -10346,7 +10395,7 @@ font-weight:400;
   	position: absolute;
   	top: 0;
   	right: 0%;
-  	text-align: left;
+  	/*text-align: left;*/
 	  text-align:center;
 	  padding:40px;
   	}
@@ -10363,10 +10412,20 @@ color:#fff;
 	  .product:hover .text {
   	display:none;
   	}
-
+.part-img{
+	padding:20px;
+	max-width:100% !important;
+	max-height:200px !important;
+	border:solid 1px #599B47;
+}
 	  .border-white{
 		  border:solid 1px white;
 	  }
+	    	.product-overlay-text2 {
+  	margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  	}
 
 /*Materials Style*/
 .container2 {
@@ -10410,6 +10469,9 @@ color:#fff;
 }
 .clr-green{
 	color:#599B47 !important;
+}
+.clr-mgreen{
+	color:#8FCDA0 !important;
 }
 .genric-btn.info{
 	color:white !important;
@@ -10567,4 +10629,19 @@ width:390px;
 .table-light, .table-light > th, .table-light > td{
 	background-color:transparent !important;
 	border:none !important;
+}
+.mapouter {
+position: relative;
+text-align: right;
+height: 300px;
+width: 300px;
+}
+.gmap_canvas {
+overflow: hidden;
+background: none !important;
+height: 300px;
+width: 300px;
+}
+.height-2{
+	height:220px !important;
 }
