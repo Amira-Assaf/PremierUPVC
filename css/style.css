@@ -10624,6 +10624,9 @@ width:390px;
 	.pdf a span{
     right: .5%;
 	}
+	.social-icon{
+		display:none;
+	}
 }
 
 .table-light, .table-light > th, .table-light > td{
@@ -10644,4 +10647,13 @@ width: 300px;
 }
 .height-2{
 	height:220px !important;
+}
+.p-5{
+	padding: 0.375rem .5rem !important;
+}
+.bg-white{
+	background:white !important;
+}
+.color-black{
+	color:#495057 !important;
 }
