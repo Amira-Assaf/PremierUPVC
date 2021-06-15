@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -3423,8 +3423,7 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #007bff; }
+ color: #28a745; }
 
 .nav-fill .nav-item {
   -webkit-box-flex: 1;
@@ -10708,3 +10707,5 @@ width: 300px;
 .color-black{
 	color:#495057 !important;
 }
+/*/////////////////////////////////////tabs*/
+
